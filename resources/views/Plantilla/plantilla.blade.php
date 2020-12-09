@@ -11,5 +11,9 @@
         <div>
             @yield('content')
         </div>
+        <div>
+            @include('Panel.card')
+        </div>
+
 </body>
 </html>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4944ef7c-4430-4845-adbd-be1cc428e5be" name="Default Changelist" comment="" />
+    <list default="true" id="4944ef7c-4430-4845-adbd-be1cc428e5be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/tarjeta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/luna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Panel/card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Plantilla/plantilla.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Plantilla/plantilla.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,9 +136,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PanelAdministrativo\public\images" />
+      <recent name="C:\laragon\www\PanelAdministrativo\storage\app\public\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -147,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607528965315</updated>
-      <workItem from="1607528967224" duration="2498000" />
+      <workItem from="1607528967224" duration="7973000" />
     </task>
     <servers />
   </component>
