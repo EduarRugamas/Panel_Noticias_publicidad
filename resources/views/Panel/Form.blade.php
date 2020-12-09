@@ -22,5 +22,7 @@
         Foto
         <input type="file" name="pic" id="picture">
     </label>
+
+<button type="submit">Agregar</button>
 </body>
 </html>
