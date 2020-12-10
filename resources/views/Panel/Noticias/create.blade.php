@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-    <form action="{{url('/empleados')}}" METHOD="post" enctype="multipart/form-data">
+    <form action="{{url('/panel')}}" METHOD="post" enctype="multipart/form-data">
         {{@csrf_field()}}
         <label for="Titulo">
 

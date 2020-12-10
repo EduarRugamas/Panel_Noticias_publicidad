@@ -13,7 +13,7 @@ class CreateNoticiasPublicidadsTable extends Migration
      */
     public function up()
     {
-        Schema::create('noticias_publicidad', function (Blueprint $table) {
+        Schema::create('noticias__publicidads', function (Blueprint $table) {
             $table->id();
             $table->string('Titulo');
             $table->text('Descripcion');

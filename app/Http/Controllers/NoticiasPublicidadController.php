@@ -37,6 +37,16 @@ class NoticiasPublicidadController extends Controller
     public function store(Request $request)
     {
         //
+        $datosNoticias = request()->except('_token');
+
+        if($request->hasFile('Foto')){
+            $datosNoticias['Foto']=$request->file('Foto')->store('uploads', 'public');
+        }
+
+        Noticias_Publicidad::insert($datosNoticias);
+
+        return redirect('create')->with('Mensaje', 'Noticia Agregada con èxito');
+
     }
 
     /**
