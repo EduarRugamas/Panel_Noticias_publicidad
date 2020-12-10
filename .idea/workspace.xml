@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4944ef7c-4430-4845-adbd-be1cc428e5be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NoticiasPublicidadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NoticiasPublicidadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_162057_create_noticias__publicidads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_162057_create_noticias__publicidads_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Panel/Form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Panel/Form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Panel/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Plantilla/plantilla.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Plantilla/plantilla.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -133,14 +138,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PanelAdministrativo\public\css" />
       <recent name="C:\laragon\www\PanelAdministrativo\public\images" />
       <recent name="C:\laragon\www\PanelAdministrativo\storage\app\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PanelAdministrativo\resources\views\Panel\Noticias" />
+      <recent name="C:\laragon\www\PanelAdministrativo\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -157,7 +167,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607528965315</updated>
-      <workItem from="1607528967224" duration="9415000" />
+      <workItem from="1607528967224" duration="15949000" />
+      <workItem from="1607614033215" duration="2009000" />
     </task>
     <servers />
   </component>
@@ -177,5 +188,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

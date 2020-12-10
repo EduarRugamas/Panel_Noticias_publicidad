@@ -14,7 +14,8 @@ class NoticiasPublicidadController extends Controller
      */
     public function index()
     {
-        return view('Panel.index');
+
+        return view('index');
     }
 
     /**

@@ -13,8 +13,12 @@ class CreateNoticiasPublicidadsTable extends Migration
      */
     public function up()
     {
-        Schema::create('noticias__publicidads', function (Blueprint $table) {
+        Schema::create('noticias_publicidad', function (Blueprint $table) {
             $table->id();
+            $table->string('Titulo');
+            $table->text('Descripcion');
+            $table->date('Fecha');
+            $table->string('Foto');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreateNoticiasPublicidadsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('noticias__publicidads');
+        Schema::dropIfExists('noticias_publicidad');
     }
 }
