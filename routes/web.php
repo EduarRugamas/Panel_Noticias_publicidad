@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'NoticiasPublicidadController@index');
 Route::resource('/panel','NoticiasPublicidadController');
 
-Route::get('create', function (){
+Route::get('/create', function (){
     return view('Panel.Noticias.create');
+});
+Route::get('/card', function (){
+    return view('Panel.card');
 });

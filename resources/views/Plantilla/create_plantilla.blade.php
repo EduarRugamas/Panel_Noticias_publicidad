@@ -8,9 +8,13 @@
             <link rel="stylesheet" href="css/create_noticias.css">
             <link rel="stylesheet" href="css/create_publicidad.css">
 
+
+
 {{--            <title>Document</title>--}}
         </head>
         <body>
-            @yield('contenido')
+            <div>
+                @include('')
+            </div>
         </body>
         </html>
