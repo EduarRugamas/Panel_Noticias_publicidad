@@ -13,11 +13,10 @@
                 <a href="#">
                 <img src="{{ asset('storage'.'/'.$items->Foto)}}" alt="" width="150" height="150">
                 </a>
-                <h4>{{$items-> Titulo}}</h4>
             </div>
-            <div class="description">
+            <div class="Contenido">
                 <p>
-                   {!!$items->Descripcion!!}
+                   {!!$items->Contenido!!}
 
                 </p>
                 {{-- para agregar iconos para redes sociales--}}

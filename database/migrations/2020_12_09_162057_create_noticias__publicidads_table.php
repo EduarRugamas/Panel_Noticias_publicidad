@@ -15,8 +15,7 @@ class CreateNoticiasPublicidadsTable extends Migration
     {
         Schema::create('noticias__publicidads', function (Blueprint $table) {
             $table->id();
-            $table->string('Titulo');
-            $table->text('Descripcion');
+            $table->text('Contenido');
             $table->date('Fecha');
             $table->string('Foto');
             $table->timestamps();

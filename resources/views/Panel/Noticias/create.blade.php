@@ -21,24 +21,16 @@
                 <form action="{{url('/noticias')}}" METHOD="post" enctype="multipart/form-data">
                     {{@csrf_field()}}
 
-                  <div class="form-group">
-                    <label for="Titulo">
-
-                        {{'Titulo'}}
-                        <input class="form-control" type="text" name="Titulo" value=""><br>
-                    </label>
-                </div>
-
                     <div>
-                        <label for="Descripcion" >
-                            {{'Descripcion'}}
+                        <label for="Contenido" >
+                            {{'Contenido'}}
                             <br>
 
                             <di>
-                                <textarea name="Descripcion" id="Descripcion" cols="40" rows="10" ></textarea>
+                                <textarea name="Contenido" id="Contenido" cols="40" rows="10" ></textarea>
                                 <script>
 
-                                    CKEDITOR.replace('Descripcion', {
+                                    CKEDITOR.replace('Contenido', {
                                         height: 200,
                                         width: 700,
                                         baseFloatZIndex: 10005
