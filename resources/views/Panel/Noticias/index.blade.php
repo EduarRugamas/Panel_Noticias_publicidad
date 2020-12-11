@@ -1,7 +1,5 @@
 @extends('Plantilla.index_plantila')
-@section('css')
-    <link rel="stylesheet" href="css/tarjeta.css">
-@endsection
+
 @section('tarjeta_')
     <div class="container">
         <div class="card-container">
@@ -18,9 +16,9 @@
                     consectetur adipisicing elit. Aperiam deserunt ea esse exercitationem
                     incidunt magni maxime nam nisi non odio perferendis, quae quam qui quibusdam ratione
                     recusandae sequi sit vel?
-                    @yield('')
+
                 </p>
-                {{--    para agregar iconos para redes sociales--}}
+                {{-- para agregar iconos para redes sociales--}}
                 {{--            <div class="social">--}}
                 {{--            </div>--}}
 
