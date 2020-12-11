@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
 @extends('Plantilla.index_plantila')
 
 @section('tarjeta_')
@@ -23,6 +26,10 @@
                 {{--            </div>--}}
 
             </div>
+        </div>
+
+        <div>
+        <a class="btn btn-primary" href="{{ url('/noticias/create')}}">Agregar Noticia</a>
         </div>
     </div>
 @endsection

@@ -1,81 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #636b6f;
+    background: white;
 }
-.card-container{
+
+.card-container {
     display: flex;
     width: 600px;
     height: auto;
     background: white;
     border-radius: 2px;
-    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
 }
-.header{
+
+.header {
     border-right: 1px solid #ddd;
 }
-.description{
+
+.description {
     background: #fbfbfb;
 }
-.header, .description{
+
+.header,
+.description {
     padding: 20px;
     text-align: center;
 }
-.header a{
+
+.header a {
     position: relative;
     display: block;
 }
 
-.header img{
+.header img {
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
     transition: .2s;
 }
-.header a:hover img{
-    box-shadow:0 0 0 12px rgba(0, 0, 0, .1);
+
+.header a:hover img {
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
 }
-.header h2{
+
+.header h2 {
     color: black;
 }
-.header h4{
+
+.header h4 {
     margin-bottom: 20px;
 }
-.description{
+
+.description {
     position: relative;
 }
-.description p{
+
+.description p {
     margin: 20px 30px;
 }
-.description, .social{
-margin-top: 25px;
+
+.description,
+.social {
+    margin-top: 25px;
 }
-.description, .social a{
+
+.description,
+.social a {
     display: inline-block;
     padding: 0 15px;
     color: black;
 }
+
 @media (max-width: 640px) {
-    .card-container{
+    .card-container {
         display: block;
         width: 450px;
     }
-    .header{
+    .header {
         padding: 20px 20px 5px 20px;
-       border: none;
+        border: none;
     }
-    .description{
+    .description {
         padding: 5px 20px 20px 20px;
         background: transparent;
     }
-    .header h4{
+    .header h4 {
         margin: 0;
     }
 }

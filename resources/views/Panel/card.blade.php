@@ -32,6 +32,10 @@
 
         </div>
     </div>
+    
+    <div>
+        <input class="btn btn-primary" type="submit" value="Agregar Noticia">
+    </div>
 </div>
 </body>
 </html>
