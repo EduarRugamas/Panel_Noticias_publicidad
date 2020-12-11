@@ -14,7 +14,7 @@
         </head>
         <body>
             <div>
-                @include('')
+
             </div>
         </body>
         </html>

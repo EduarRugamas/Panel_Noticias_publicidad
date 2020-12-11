@@ -15,7 +15,7 @@ class NoticiasPublicidadController extends Controller
     public function index()
     {
 
-        return view('index');
+        return view('Panel.Noticias.index');
     }
 
     /**
@@ -25,14 +25,14 @@ class NoticiasPublicidadController extends Controller
      */
     public function create()
     {
-        //
+        return view('Panel.Noticias.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Http\Response|\Illuminate\Routing\Redirector
      */
     public function store(Request $request)
     {
@@ -45,7 +45,7 @@ class NoticiasPublicidadController extends Controller
 
         Noticias_Publicidad::insert($datosNoticias);
 
-        return redirect('create')->with('Mensaje', 'Noticia Agregada con èxito');
+        return redirect('/noticias');
 
     }
 
