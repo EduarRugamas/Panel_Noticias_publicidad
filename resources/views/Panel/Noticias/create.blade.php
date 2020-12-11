@@ -38,7 +38,15 @@
                                 <textarea name="Descripcion" id="Descripcion" cols="40" rows="10" ></textarea>
                                 <script>
 
-                                    CKEDITOR.replace('Descripcion');
+                                    CKEDITOR.replace('Descripcion', {
+                                        height: 200,
+                                        width: 500,
+                                        baseFloatZIndex: 10005
+                                    });
+                                    CKEDITOR.config.extraPlugins = ["justify", "colorbutton", "font"];
+                                    // CKEDITOR.config.extraPlugins = ;
+                                    // config.extraPlugins = "justify";
+
 
                                 </script>
                             </di>
