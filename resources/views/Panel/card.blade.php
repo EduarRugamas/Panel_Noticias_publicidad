@@ -24,6 +24,7 @@
                 consectetur adipisicing elit. Aperiam deserunt ea esse exercitationem
                 incidunt magni maxime nam nisi non odio perferendis, quae quam qui quibusdam ratione
                 recusandae sequi sit vel?
+                @yield('')
             </p>
             {{--    para agregar iconos para redes sociales--}}
             {{--            <div class="social">--}}

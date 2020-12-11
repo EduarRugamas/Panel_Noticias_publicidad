@@ -40,14 +40,12 @@
 
                                     CKEDITOR.replace('Descripcion', {
                                         height: 200,
-                                        width: 500,
+                                        width: 700,
                                         baseFloatZIndex: 10005
                                     });
                                     CKEDITOR.config.extraPlugins = ["justify", "colorbutton", "font"];
                                     // CKEDITOR.config.extraPlugins = ;
                                     // config.extraPlugins = "justify";
-
-
                                 </script>
                             </di>
 
