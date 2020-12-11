@@ -8,24 +8,28 @@
         <div class="card-container">
 {{--            <a href="{{ url('Form')}}">Agregar Noticia</a>--}}
             <div class="header">
+                @foreach ($noticias as $item)
                 <a href="#">
-                    <img src="images/luna.jpg" alt="" width="150" height="150">
+                    <img src="{{ asset('storage'.'/'.$item->Foto)}}" alt="" width="200">
                 </a>
-                <h4>Nombre</h4>
+                
+                <h4>{{$item->Titulo}}</h4>
             </div>
             <div class="description">
+               
                 <p>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Aperiam deserunt ea esse exercitationem
-                    incidunt magni maxime nam nisi non odio perferendis, quae quam qui quibusdam ratione
-                    recusandae sequi sit vel?
+                   
+                     {{$item->Descripcion}}
+                    
 
                 </p>
+                
                 {{-- para agregar iconos para redes sociales--}}
                 {{--            <div class="social">--}}
                 {{--            </div>--}}
 
             </div>
+            @endforeach
         </div>
 
         <div>
