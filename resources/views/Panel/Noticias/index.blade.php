@@ -8,7 +8,7 @@
         @foreach($noticias as $items)
         <div class="card-container">
 {{--            <a href="{{ url('Form')}}">Agregar Noticia</a>--}}
-                 {{$loop->iteration}}
+{{--                 {{$loop->iteration}}--}}
             <div class="header">
                 <a href="#">
                 <img src="{{ asset('storage'.'/'.$items->Foto)}}" alt="" width="150" height="150">
@@ -26,7 +26,9 @@
 
                 <p>Publicado:{{$items->Fecha}}</p>
             </div>
+            <br>
         </div>
+            <br>
         @endforeach
         <div>
         <a class="btn btn-primary" href="{{ url('/noticias/create')}}">Agregar Noticia</a>
