@@ -10,6 +10,7 @@
     justify-content: center;
     height: 100vh;
     background: white;
+    border-radius: 100% ;
 }
 
 .card-container {
@@ -20,6 +21,7 @@
     border-radius: 2px;
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
 }
+
 
 .header {
     border-right: 1px solid #ddd;
@@ -52,10 +54,15 @@
 
 .header h2 {
     color: black;
+
 }
 
 .header h4 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
+}
+.title{
+    color: #047d65;
 }
 
 .description {

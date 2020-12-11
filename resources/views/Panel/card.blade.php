@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <div class="card-container">
-        <a href="{{ url('Form')}}">Agregar Noticia</a>
+{{--        <a href="{{ url('Form')}}">Agregar Noticia</a>--}}
         <div class="header">
             <a href="#">
                 <img src="images/luna.jpg" alt="" width="150" height="150">
@@ -32,10 +32,7 @@
 
         </div>
     </div>
-    
-    <div>
-        <input class="btn btn-primary" type="submit" value="Agregar Noticia">
-    </div>
+
 </div>
 </body>
 </html>
