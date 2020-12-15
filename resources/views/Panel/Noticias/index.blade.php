@@ -25,7 +25,6 @@
 
                 <p>Publicado:{{$items->Fecha}}</p>
             </div>
-            <br>
         </div>
             <br>
         @endforeach
